@@ -201,6 +201,11 @@ nav a:hover {
   display: flex;
 }
 
+.goals-cards img {
+  width: 30%;
+  height: 30%;
+}
+
 /*Articles*/
 .articles h2 {
   text-align: center;
