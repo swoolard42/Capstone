@@ -148,16 +148,22 @@ nav a:hover {
 .hero-text {
   background-color: #E9EB8C;
   opacity: 80%;
+  padding: 0;
+  margin: 0;
 }
 
 .hero h2 {
   font-size: 2.2em;
   font: weight 900px;
+  padding-top: 8px;
+  padding-bottom: 0px;
 }
 
 .hero p {
   font-weight: 700;
   font-size: 1.3em;
+  padding-top: 0px;
+  padding-bottom: 10px;
 }
 
 /*Mission Statement*/
@@ -171,4 +177,26 @@ nav a:hover {
   margin-left: 280px;
   margin-right: 280px;
   font-size: 1.1em;
+}
+
+/*Campaign Goals*/
+.goals h2 {
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-size: 2.2em;
+  font: weight 900px;
+  padding-top: 20px;
+}
+
+.goals h3 {
+  font-family: Inter, sans-serif;;
+  font-size: 1.4em;
+}
+
+.goals p {
+  font-family: Lustria, serif;
+}
+
+.goals-cards {
+  display: flex;
 }
