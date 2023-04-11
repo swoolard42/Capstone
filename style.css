@@ -3,12 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
 
 
-
+/*Navigation*/
 .navigation {
   background: #83AAD7;
   color: black;
   text-decoration: none;
   text-align: center;
+  font-family: Inter, sans-serif;
   position: fixed;
   width: 100%;
   z-index: 999;
@@ -57,7 +58,7 @@ nav li {
 }
 
 nav a {
-  color: white;
+  color: black;
   text-decoration: none;
   font-size: 1.2rem;
   text-transform: uppercase;
@@ -65,7 +66,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #FFF38C;
+  color: #E9EB8C;
 }
 
 .nav-toggle:checked ~ nav {
@@ -132,4 +133,42 @@ nav a:hover {
 }
 
 
- 
+/*Hero*/
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero {
+  text-align: center;
+  font-family: Inter, sans-serif;
+}
+
+.hero-text {
+  background-color: #E9EB8C;
+  opacity: 80%;
+}
+
+.hero h2 {
+  font-size: 2.2em;
+  font: weight 900px;
+}
+
+.hero p {
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+/*Mission Statement*/
+.mission-statement h2 {
+ text-align: center;
+ font-family: Inter, sans-serif;
+ font-size: 2em;
+}
+
+.mission-statement p {
+  margin-left: 280px;
+  margin-right: 280px;
+  font-size: 1.1em;
+}
