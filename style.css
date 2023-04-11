@@ -189,7 +189,7 @@ nav a:hover {
 }
 
 .goals h3 {
-  font-family: Inter, sans-serif;;
+  font-family: Inter, sans-serif;
   font-size: 1.4em;
 }
 
@@ -199,4 +199,27 @@ nav a:hover {
 
 .goals-cards {
   display: flex;
+}
+
+/*Articles*/
+.articles h2 {
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-size: 2em;
+}
+
+.article-cards h3 {
+  font-family: Inter, sans-serif;
+  font-size: 1.4em;
+}
+
+.article-cards p {
+  font-family: Lustria, serif;
+}
+
+/*Print Campaign*/
+.print-camp h2 {
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-size: 2.2em;
 }
