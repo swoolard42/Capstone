@@ -233,10 +233,36 @@ nav a:hover {
 }
 
 /*Print Campaign*/
+.print-camp {
+  background: #C4C678;
+}
+
+.print-camp-imgs {
+  display: flex;
+  align-items: center;
+}
+
+.print-camp-imgs img {
+  width: 25%;
+  height: 20%;
+}
+
 .print-camp h2 {
   text-align: center;
   font-family: Inter, sans-serif;
   font-size: 2.2em;
+  padding-top: 15px;
+}
+
+.print-camp button {
+  border: none;
+  text-decoration: none;
+  margin: 15px;
+  background:#162145;
+  color: white;
+  font-family: Inter, sans-serif;
+  font-size: 2em;
+  padding: 15px;
 }
 
 /*Footer*/
