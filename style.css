@@ -12,7 +12,6 @@ h2 {
   font-size: 2em;
 }
 
-
 /*Navigation*/
 .navigation {
   background: #83AAD7;
@@ -215,7 +214,7 @@ nav a:hover {
 .goals {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .goals h3 {
@@ -247,6 +246,51 @@ nav a:hover {
 
 .article-cards p {
   font-family: Lustria, serif;
+}
+
+.articles button {
+  text-decoration: none;
+  border: none;
+  background:#162145;
+  color: white;
+  font-family: Inter, sans-serif;
+  font-size: 1.2em;
+  padding: 10px;
+  margin: 5px;
+}
+
+.articles button:hover {
+ color: #E9EB8C;
+}
+
+.article-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.article-1-card {
+  background: #8BCD8A;
+  padding: 10px;
+  margin: 10px;
+}
+
+.article-2-card {
+  background: #8BCD8A;
+  padding: 10px;
+  margin: 10px;
+}
+
+.article-3-card {
+  background: #8BCD8A;
+  padding: 10px;
+  margin: 10px;
+}
+
+.article-4-card {
+  background: #8BCD8A;
+  padding: 10px;
+  margin: 10px;
 }
 
 /*Print Campaign*/
@@ -282,6 +326,11 @@ nav a:hover {
   font-family: Inter, sans-serif;
   font-size: 2em;
   padding: 15px;
+  
+}
+
+.print-camp button:hover {
+  color: #E9EB8C;
 }
 
 
@@ -305,8 +354,8 @@ nav a:hover {
 
 .footer ul {
   font-family: Inter, sans-serif;
-  text-decoration: none;
   color: white;
+  font-size: 1.4em;
 }
 
 .footer h4 {
