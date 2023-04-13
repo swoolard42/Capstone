@@ -208,6 +208,7 @@ nav a:hover {
   margin-left: 280px;
   margin-right: 280px;
   font-size: 1.1em;
+  line-height: 25px;
 }
 
 /*Campaign Goals*/
@@ -267,6 +268,7 @@ nav a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
 .article-1-card {
@@ -317,16 +319,15 @@ nav a:hover {
   padding-top: 15px;
 }
 
-.print-camp button {
+.print-camp button { 
   border: none;
   text-decoration: none;
-  margin: 15px;
+  margin: 10px;
   background:#162145;
   color: white;
   font-family: Inter, sans-serif;
   font-size: 2em;
   padding: 15px;
-  
 }
 
 .print-camp button:hover {
@@ -365,4 +366,10 @@ nav a:hover {
   text-align: center;
   padding-bottom: 25px;
   margin: 0;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
 }
