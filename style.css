@@ -212,20 +212,33 @@ nav a:hover {
 }
 
 /*Campaign Goals*/
-.goals {
+/*.goals {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}*/
+
+.goals-group-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.goals-group-2 {
+  display: flex;
+  flex-direction: row;
 }
 
 .goals h3 {
   font-family: Inter, sans-serif;
   font-size: 1.4em;
   text-align: center;
+  width: 70%;
 }
 
 .goals p {
   font-family: Lustria, serif;
+  width: 70%;
 }
 
 .goals-cards img {
@@ -247,6 +260,11 @@ nav a:hover {
 
 .article-cards p {
   font-family: Lustria, serif;
+  width: 70%;
+}
+
+.articles img {
+  align-items: center;
 }
 
 .articles button {
@@ -269,6 +287,8 @@ nav a:hover {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  width: 45%;
+  padding: 10px;
 }
 
 .article-1-card {
@@ -369,6 +389,7 @@ nav a:hover {
 }
 
 .social-media {
+  padding-top: 20px;
   display: flex;
   flex-direction: row;
   justify-content: right;
