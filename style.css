@@ -291,6 +291,18 @@ nav a:hover {
   padding: 10px;
 }
 
+.articles-cards-group-1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.articles-cards-group-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
 .article-1-card {
   background: #8BCD8A;
   padding: 10px;
