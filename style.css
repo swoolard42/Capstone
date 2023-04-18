@@ -296,25 +296,25 @@ nav a:hover {
 
 .article-1-card {
   background: #8BCD8A;
-  padding: 10px;
+  padding: 15px;
   margin: 10px;
 }
 
 .article-2-card {
   background: #8BCD8A;
-  padding: 10px;
+  padding: 15px;
   margin: 10px;
 }
 
 .article-3-card {
   background: #8BCD8A;
-  padding: 10px;
+  padding: 15px;
   margin: 10px;
 }
 
 .article-4-card {
   background: #8BCD8A;
-  padding: 10px;
+  padding: 15px;
   margin: 10px;
 }
 
@@ -421,6 +421,7 @@ nav a:hover {
 
 .footer li {
   list-style: none;
+  line-height: 1.4em;
 }
 
 .footer h4 {
@@ -435,6 +436,5 @@ nav a:hover {
 .social-media {
   padding-top: 20px;
   display: flex;
-  flex-direction: row;
   justify-content: right;
 }
