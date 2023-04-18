@@ -212,17 +212,11 @@ nav a:hover {
 }
 
 /*Campaign Goals*/
-/*.goals {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}*/
-
 .goals-group {
   max-width: 1000px;
   margin: 0 auto;
   display: flex;
-  gap:1em;
+  gap: 1.2em;
   justify-content: center;
 }
 
@@ -283,25 +277,21 @@ nav a:hover {
  color: #E9EB8C;
 }
 
-.article-cards {
+/* .article-cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 45%;
   padding: 10px;
-}
+} */
 
 .articles-cards-group-1 {
   display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-
-.articles-cards-group-2 {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 .article-1-card {
@@ -331,7 +321,7 @@ nav a:hover {
 /*Print Campaign*/
 .print-camp {
   background: #C4C678;
-  padding: 2em;
+  padding: 1em;
 }
 
 .print-camp-imgs {
@@ -350,7 +340,6 @@ nav a:hover {
   text-align: center;
   font-family: Inter, sans-serif;
   font-size: 2.2em;
-  padding-top: 15px;
 }
 
  button { 
@@ -422,6 +411,7 @@ nav a:hover {
   font-family: Inter, sans-serif;
   color: white;
   font-size: 1.4em;
+  padding-left: 10px;
 }
 
 .footer a {
