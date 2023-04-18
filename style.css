@@ -218,32 +218,32 @@ nav a:hover {
   justify-content: space-between;
 }*/
 
-.goals-group-1 {
+.goals-group {
+  max-width: 1000px;
+  margin: 0 auto;
   display: flex;
-  flex-direction: row;
+  gap:1em;
   justify-content: center;
 }
 
-.goals-group-2 {
-  display: flex;
-  flex-direction: row;
+.goals-group-1 > div img {
+  display: block;
 }
 
 .goals h3 {
   font-family: Inter, sans-serif;
   font-size: 1.4em;
   text-align: center;
-  width: 70%;
 }
 
 .goals p {
   font-family: Lustria, serif;
-  width: 70%;
 }
 
-.goals-cards img {
-  width: 30%;
-  height: 30%;
+.goals-cards-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /*Articles*/
@@ -260,14 +260,14 @@ nav a:hover {
 
 .article-cards p {
   font-family: Lustria, serif;
-  width: 70%;
+  width: 100%;
 }
 
 .articles img {
   align-items: center;
 }
 
-.articles button {
+/* .articles button {
   text-decoration: none;
   border: none;
   background:#162145;
@@ -276,7 +276,8 @@ nav a:hover {
   font-size: 1.2em;
   padding: 10px;
   margin: 5px;
-}
+  text-align: center;
+} */
 
 .articles button:hover {
  color: #E9EB8C;
@@ -330,6 +331,7 @@ nav a:hover {
 /*Print Campaign*/
 .print-camp {
   background: #C4C678;
+  padding: 2em;
 }
 
 .print-camp-imgs {
@@ -351,15 +353,19 @@ nav a:hover {
   padding-top: 15px;
 }
 
-.print-camp button { 
+ button { 
   border: none;
-  text-decoration: none;
-  margin: 10px;
   background:#162145;
   color: white;
   font-family: Inter, sans-serif;
-  font-size: 2em;
+  font-size: 1.2em;
   padding: 15px;
+  display: block;
+  margin: 0px auto;
+}
+
+.camp-btn {
+  font-size: 2em;
 }
 
 .print-camp button:hover {
@@ -371,6 +377,7 @@ nav a:hover {
   text-align: center;
   font-family: Inter, sans-serif;
   font-size: 2em;
+  align-items: center;
 }
 
 .print-camp-intro p {
@@ -415,6 +422,15 @@ nav a:hover {
   font-family: Inter, sans-serif;
   color: white;
   font-size: 1.4em;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer li {
+  list-style: none;
 }
 
 .footer h4 {
