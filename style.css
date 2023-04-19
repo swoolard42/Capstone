@@ -378,15 +378,18 @@ nav a:hover {
 
 .print-camp-posters-img {
   display: flex;
-  align-items: center;
+  margin: 0 auto;
+  max-width: 950px;
   justify-content: center;
 }
 
-.print-camp-poster img {
-  width: 25%;
-  height: 20%;
-  margin: 25px;
+.print-camp-posters-img img {
+  width: 50%;
+  height: 50%;
+  margin: 15px;
 }
+
+
 
 
 
