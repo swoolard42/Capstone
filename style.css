@@ -357,6 +357,10 @@ nav a:hover {
   font-size: 2em;
 }
 
+a {
+  text-decoration: none;
+}
+
 .print-camp button:hover {
   color: #E9EB8C;
 }
@@ -412,7 +416,7 @@ nav a:hover {
   justify-content: center;
 }
 
-
+/*Social Posts*/
 
 
 
