@@ -417,7 +417,25 @@ a {
 }
 
 /*Social Posts*/
+.print-camp-social-imgs {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 10px;
+}
 
+.print-camp-social-imgs-1 {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 10px;
+}
+
+.print-camp-social img {
+  width: 20%;
+  height: 20%;
+  margin: 10px;
+}
 
 
 /*Footer*/
