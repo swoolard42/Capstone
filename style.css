@@ -501,7 +501,7 @@ a {
   .mission-statement p {
     display: block;
     margin: 0 auto;
-    padding: 10px;
+    padding: 15px;
   }
 }
 
@@ -512,7 +512,7 @@ a {
 }
 
 .goals p {
-  padding: 10px;
+  padding: 15px;
 }
 }
 
@@ -521,20 +521,35 @@ a {
   .articles-cards-group-1 {
     display: block;
   }
+
+  .articles img {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 /*Print Campaign media query*/
 @media screen and (max-width: 600px) {
   .print-camp-imgs {
     display: block;
+    margin: 0 auto;
   }
 
+  .print-camp-imgs img {
+    width: 50%;
+    height: 50%;
+    margin: 15px;
+  }
 
 }
 
 /*Footer media query*/
 @media screen and (max-width: 600px) {
   .footer ul {
+    display: none;
+  }
+
+  .footer h1 {
     display: none;
   }
 }
