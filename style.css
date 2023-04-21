@@ -504,3 +504,37 @@ a {
     padding: 10px;
   }
 }
+
+/*Goals media query*/
+@media screen and (max-width: 600px) {
+.goals-group {
+  display: block;
+}
+
+.goals p {
+  padding: 10px;
+}
+}
+
+/*Articles media query*/
+@media screen and (max-width: 600px) {
+  .articles-cards-group-1 {
+    display: block;
+  }
+}
+
+/*Print Campaign media query*/
+@media screen and (max-width: 600px) {
+  .print-camp-imgs {
+    display: block;
+  }
+
+
+}
+
+/*Footer media query*/
+@media screen and (max-width: 600px) {
+  .footer ul {
+    display: none;
+  }
+}
