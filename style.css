@@ -528,6 +528,14 @@ a {
     display: block;
   }
 
+  .articles-cards-group-1 h3 {
+    padding: 0px;
+  }
+
+  .articles-cards-group-1 p {
+    padding: 0;
+  }
+
   .articles img {
     width: 100%;
     height: 100%;
