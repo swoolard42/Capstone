@@ -58,7 +58,7 @@ nav {
   text-align: left;
   top: 100%;
   left: 0;
-  background: var(--background);
+  background:#83AAD7;;
   width: 100%;
   transform: scale(1,0);
   transition: transform 400ms ease-in-out;
