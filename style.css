@@ -512,7 +512,8 @@ a {
 }
 
 .goals-group img {
-  margin-left: 65px;
+  width: 70%;
+  margin-left: 75px;
 }
 
 .goals p {
