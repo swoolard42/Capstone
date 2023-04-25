@@ -564,3 +564,65 @@ a {
 width: 8%;
   }
 }
+
+/*Print Campaign Page Media Queries*/
+
+/*PC intro paragraph*/
+@media screen and (max-width: 600px) {
+  .print-camp-intro p {
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+  }
+}
+
+/*Posters*/
+@media screen and (max-width: 600px) {
+  .print-camp-posters-img {
+    display: block;
+    margin: 0 auto;
+    margin-left: 65px;
+  }
+
+  .print-camp-posters-img img {
+    width: 80%;
+  }
+}
+
+/*Billboards*/
+@media screen and (max-width: 600px) {
+  .print-camp-billboards-imgs {
+    display: block;
+    margin: 0 auto;
+    margin-left: 40px;
+  }
+
+  .print-camp-billboards-imgs-1 {
+    display: block;
+    margin: 0 auto;
+    margin-left: 55px;
+  }
+
+  .print-camp-billboards-imgs-1 img {
+    width: 88%;
+    padding-top: 15px;
+  }
+}
+
+/*Social Posts*/
+@media screen and (max-width: 600px) {
+  .print-camp-social-imgs {
+    display: block;
+    margin-left: 100px;
+  }
+
+  .print-camp-social-imgs-1 {
+    display: block;
+    margin-left: 100px;
+  }
+
+  .print-camp-social img {
+    width: 70%;
+  }
+
+}
