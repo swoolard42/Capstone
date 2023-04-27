@@ -144,6 +144,10 @@ nav a:hover {
 }
 
 /*Mission Statement*/
+.mission-statement {
+  padding: 40px;
+}
+
 .mission-statement h2 {
  text-align: center;
  font-family: Inter, sans-serif;
@@ -449,10 +453,14 @@ a {
     display: grid;
     grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
   }
+
+ 
   
   .logo {
     grid-column: 2/3;
   }
+
+
   
   nav {
     all: unset;
@@ -495,6 +503,7 @@ a {
   .hero {
     display: flex;
     flex-direction: column;
+    height: 100vh;
   }
 }
 
