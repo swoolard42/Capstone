@@ -453,14 +453,11 @@ a {
     display: grid;
     grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
   }
-
- 
   
   .logo {
     grid-column: 2/3;
+    margin: 0;
   }
-
-
   
   nav {
     all: unset;
@@ -528,7 +525,7 @@ a {
 }
 
 .goals p {
-  padding: 10px;
+  padding: 30px;
   margin-left: 10px;
   margin-right: 10px;
 }
