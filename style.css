@@ -128,7 +128,7 @@ nav a:hover {
 }
 
 .hero h2 {
-  font-size: 2.6em;
+  font-size: 3.5em;
   font: weight 900px;
   padding-top: 25px;
   padding-bottom: 0px;
@@ -137,7 +137,7 @@ nav a:hover {
 
 .hero p {
   font-weight: 700;
-  font-size: 1.6em;
+  font-size: 1.8em;
   padding-top: 0px;
   padding-bottom: 25px;
   margin: 0;
@@ -256,18 +256,20 @@ nav a:hover {
   background: #8BCD8A;
   padding: 15px;
   margin: 10px;
+  margin-bottom: 25px;
 }
 
 .article-4-card {
   background: #8BCD8A;
   padding: 15px;
   margin: 10px;
+  margin-bottom: 25px;
 }
 
 /*Print Campaign*/
 .print-camp {
   background: #C4C678;
-  padding: 1em;
+  padding: 0.5em;
 }
 
 .print-camp-imgs {
@@ -336,7 +338,7 @@ a {
 }
 
 .print-camp-posters-img img {
-  width: 50%;
+  width: 46%;
   height: 50%;
   margin: 15px;
 }
