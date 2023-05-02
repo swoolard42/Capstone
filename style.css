@@ -32,6 +32,7 @@ h2 {
 
 .navigation h1 {
   font-weight: 900;
+  padding-top: 20px;
 }
 
 .nav-toggle {
@@ -157,7 +158,7 @@ nav a:hover {
 .mission-statement p {
   margin-left: 280px;
   margin-right: 280px;
-  font-size: 1.1em;
+  font-size: 1.2em;
   line-height: 25px;
 }
 
@@ -453,10 +454,17 @@ a {
     display: grid;
     grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
   }
+
+  .navigation h1 {
+    padding: 0;
+  }
   
   .logo {
     grid-column: 2/3;
-    margin: 0;
+  }
+
+  .logo img {
+    padding: 0;
   }
   
   nav {
