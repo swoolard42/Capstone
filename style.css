@@ -544,6 +544,7 @@ a {
 @media screen and (max-width: 600px) {
   .articles-cards-group-1 {
     display: block;
+    margin: 20px;
   }
 
   .articles-cards-group-1 h3 {
